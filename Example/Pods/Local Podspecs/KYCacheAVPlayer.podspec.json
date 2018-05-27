@@ -1,0 +1,22 @@
+{
+  "name": "KYCacheAVPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of KYCacheAVPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/673637753@qq.com/KYCacheAVPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "673637753@qq.com": "673637753@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/673637753@qq.com/KYCacheAVPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KYCacheAVPlayer/Classes/**/*"
+}

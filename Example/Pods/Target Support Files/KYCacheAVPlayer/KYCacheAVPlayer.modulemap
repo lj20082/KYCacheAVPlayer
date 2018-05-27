@@ -1,0 +1,6 @@
+framework module KYCacheAVPlayer {
+  umbrella header "KYCacheAVPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
