@@ -7,16 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00573106063F6E7137E405BDDB42958B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BE74E4A0612948C7BE371CA91CA70C /* AVFoundation.framework */; };
+		041283B6F9EEDCC1D88A89A260F22CE5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909CBFD02495A58174F7B7C2A1C912EC /* MobileCoreServices.framework */; };
+		062883CBFE6CE8F7D95C29386098D709 /* VICacheAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DF6F70131594BC23D6075ED9A033FC /* VICacheAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		141A32296D53BFC43BBC91C6C1F7B09A /* VIContentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DD2C9D23091AACCC230A273240C2A5 /* VIContentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		157A7BB5DFA51F14D2E44BBAEDAEFA4F /* VIMediaDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3224BBC1ACD4723DD8A25C49882AAFA0 /* VIMediaDownloader.m */; };
 		166E76989DB836785680257D20563C44 /* Pods-KYCacheAVPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1714F11490DE6BAE40A38EC94C2648 /* Pods-KYCacheAVPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4286D56E7FEDECC9194AE652E2FDF4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1712721AB508D4F5850014F0DAA9DF3D /* VIMediaCacheWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9794D01AF0663F07A573EB1E9EF353E0 /* VIMediaCacheWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC65C69BAA671891A4D8D10909B261F /* NSString+VIMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53CB2BB6C67C3CA08E6FF728EA9C09 /* NSString+VIMD5.m */; };
+		1D992CAA5C7FCE1786619693A2792736 /* VIResourceLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6843067B4AE7FD10D3C66C9AF31DA08 /* VIResourceLoaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9D522EFAAE654A040B1B365C6CD88E /* VICacheConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2634D8E25EFDD6E4A2C1B4A72EDC2631 /* VICacheConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257E1E88E9DED26157A220DA010365DB /* VIMediaCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C203130958B1EE9B2076CE2129E02F2 /* VIMediaCache-dummy.m */; };
+		2609E161652CC1DD37ACE02579953C14 /* VIMediaCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9E5AD749BE2637BE9F4BBADEA69E7D /* VIMediaCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C3AFE9BA94E8A0C1838E87AD01CB928 /* VICacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F296080D60F7CC998B0CC71DFC17CD0E /* VICacheManager.m */; };
+		39F7355AEE76D8ED0330D242C278995F /* VIMediaCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B23EAE2F05C3E0CB49022D12B4BEC8 /* VIMediaCache.framework */; };
+		3A298F9F10AD808BEBCA6FBD677C7EE4 /* VIContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1145B714E6604471E8D657893D0BCF34 /* VIContentInfo.m */; };
+		3DA5D4421B284E28D6CD2AE3998C1339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A79EF0D53E01A8703BE3BC2FD4B72A /* Foundation.framework */; };
+		4286D56E7FEDECC9194AE652E2FDF4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A79EF0D53E01A8703BE3BC2FD4B72A /* Foundation.framework */; };
+		45B2ADA04A74291AD9AE468EBAF9B4B6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD16173B91676374C15F2E010E0E010 /* ReplaceMe.m */; };
+		48D731DFD89FB389358E5DDDADD0E399 /* VICacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 049A334D1E3406EBA5CE1C2E45D82597 /* VICacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51CE300380A874B9E7EAE805AB3587C2 /* Pods-KYCacheAVPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E48000CBE56FC8121A4E47D05D335B0 /* Pods-KYCacheAVPlayer_Tests-dummy.m */; };
-		8D4F1B40BDD9C9FB2BFEA2F82129EDEF /* KYCacheAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E80401BA193CACAA540DC8E1AB60B8 /* KYCacheAVPlayer-dummy.m */; };
-		A1355D74133F46C767B22D165E52DDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C61020E9ED27737D4E9E9A113F9858E6 /* Pods-KYCacheAVPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA44AB86573DC19BF47DC94C0D3B7A /* Pods-KYCacheAVPlayer_Example-dummy.m */; };
-		DC73330C739B665B0FA2880870FB6BBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DF788768C3B9D6642DEB634DADD0F1B4 /* KYCacheAVPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A7942D3EC458DF5805DE2318596EBE /* KYCacheAVPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E38611B062829D2738F3F10D1402F785 /* Pods-KYCacheAVPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC702C37CEACF5DCEA6068CE4D316E1 /* Pods-KYCacheAVPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EABC6B67E2CEDAA59364703266576676 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD16173B91676374C15F2E010E0E010 /* ReplaceMe.m */; };
+		59DD719E60D50CEB8CF60F4D4BF11BA9 /* VIResourceLoadingRequestWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F09BD57AFE482DE6C9018AD045CE56 /* VIResourceLoadingRequestWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE51D00B6A8AF61D5ED6712C9A084C8 /* VIResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 469626724FEE53739FDE9310DF8D016D /* VIResourceLoader.m */; };
+		5FFB79F882D55036F57FC4795E88C115 /* VICacheAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B677CD9D465C107E920F845222A2D3 /* VICacheAction.m */; };
+		6B3A6A8468ECAB944F32D97BA43756E3 /* VIResourceLoadingRequestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FDCEC0FDDB9036D4FB4304EF36A1C /* VIResourceLoadingRequestWorker.m */; };
+		6F70574588F1A2322702DC6F5809269C /* VIResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = ABEC611C0558CC11D69C5545899DADED /* VIResourceLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A2EFD48EB793BC9A86A17A374F5281D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837527CE7326FB054E8EA03AFC507D02 /* UIKit.framework */; };
+		7BCE3AE843DDAAEA0E9EF6FCACEF578E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A79EF0D53E01A8703BE3BC2FD4B72A /* Foundation.framework */; };
+		826F7B17EE0E41DE1E70308E6A3A0485 /* Pods-KYCacheAVPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA44AB86573DC19BF47DC94C0D3B7A /* Pods-KYCacheAVPlayer_Example-dummy.m */; };
+		87DB7612B189FD08A69896BB315A2A54 /* VIResourceLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506B0846D6E6D0B95DAE0DB35080A98 /* VIResourceLoaderManager.m */; };
+		881917BB59E417BF700B59A926BC683B /* KYCacheAVPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E80401BA193CACAA540DC8E1AB60B8 /* KYCacheAVPlayer-dummy.m */; };
+		88B94CDB78FD02ABF7DCA56C07B1A773 /* VICacheConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 431852BC32128028FBB0A8EA0759D45B /* VICacheConfiguration.m */; };
+		9CA2879C8268986942B2EDD9E4F94D60 /* VIMediaCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287EDFA995C581B13E82E8108B87674A /* VIMediaCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A099099AE140D18366D4F62864761D35 /* NSString+VIMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85BA8C419A3CE5773762C61A169B9A /* NSString+VIMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60CDAD4F83C24C77561D8DDEEA19CCB /* VICacheSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD660A39557B58D5BC10E25110C62365 /* VICacheSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD09F88BD8F98A0806CC0819F2A2C2E5 /* KYCacheAVPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A7942D3EC458DF5805DE2318596EBE /* KYCacheAVPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C287AE3F2396C3F43FB0958576B776D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A79EF0D53E01A8703BE3BC2FD4B72A /* Foundation.framework */; };
+		D4513A4963D85BAE6F5BC1E86E6FA940 /* VIMediaCacheWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = D920CD3294DF532F239728C709FD30BE /* VIMediaCacheWorker.m */; };
+		DD0B6476482CCC252DC0C31A0743F4A5 /* VIMediaDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE793326DF177A96FDA173F48E0B179 /* VIMediaDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05AF0BA7CA46C856D664357876F9544 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BE74E4A0612948C7BE371CA91CA70C /* AVFoundation.framework */; };
+		E59ED265B10C2C97799A8AFCB9E645D8 /* Pods-KYCacheAVPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC702C37CEACF5DCEA6068CE4D316E1 /* Pods-KYCacheAVPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74183EEA1A988E99863CD562F6A8A4B /* VICacheSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E782B5366255BA935BC3A7CFB8C63D /* VICacheSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,57 +55,115 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B9B16BFDC4D03C0D1E83F3686EF6B59;
+			remoteGlobalIDString = CA065E66D75C49EB55A07573154F300C;
 			remoteInfo = "Pods-KYCacheAVPlayer_Example";
 		};
-		EE10B67CB8582585FB0371AD23A9DDA5 /* PBXContainerItemProxy */ = {
+		A3193E03F75437A6A0001107FA0CD018 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD1648E729E7A41944EF3251E7218B01;
+			remoteGlobalIDString = 16A09B784A4278D5411373F2D8DBE2A9;
+			remoteInfo = VIMediaCache;
+		};
+		D1D5A158A0194F81D5F47E34973CD0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A09B784A4278D5411373F2D8DBE2A9;
+			remoteInfo = VIMediaCache;
+		};
+		F054A5D681EEF7C0BED544C53FD32DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1A982E6693226CE20A1053B23D645B;
 			remoteInfo = KYCacheAVPlayer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049A334D1E3406EBA5CE1C2E45D82597 /* VICacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheManager.h; path = VIMediaCache/Cache/VICacheManager.h; sourceTree = "<group>"; };
 		07EB7CC8173E68D55B00E316063330C8 /* Pods-KYCacheAVPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCacheAVPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0A0DC0512315BB0D67763D0295294C0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B1714F11490DE6BAE40A38EC94C2648 /* Pods-KYCacheAVPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYCacheAVPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0E48000CBE56FC8121A4E47D05D335B0 /* Pods-KYCacheAVPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYCacheAVPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		1145B714E6604471E8D657893D0BCF34 /* VIContentInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIContentInfo.m; path = VIMediaCache/ResourceLoader/VIContentInfo.m; sourceTree = "<group>"; };
+		1506B0846D6E6D0B95DAE0DB35080A98 /* VIResourceLoaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoaderManager.m; path = VIMediaCache/ResourceLoader/VIResourceLoaderManager.m; sourceTree = "<group>"; };
+		1DDE2438A52FC7544E9765D7FAA5C059 /* VIMediaCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VIMediaCache.modulemap; sourceTree = "<group>"; };
+		2634D8E25EFDD6E4A2C1B4A72EDC2631 /* VICacheConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheConfiguration.h; path = VIMediaCache/Cache/VICacheConfiguration.h; sourceTree = "<group>"; };
 		265A3BE284B2F5F488BB2FC9EDD23BDD /* Pods-KYCacheAVPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCacheAVPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		287EDFA995C581B13E82E8108B87674A /* VIMediaCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMediaCache-umbrella.h"; sourceTree = "<group>"; };
+		2C203130958B1EE9B2076CE2129E02F2 /* VIMediaCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIMediaCache-dummy.m"; sourceTree = "<group>"; };
+		3224BBC1ACD4723DD8A25C49882AAFA0 /* VIMediaDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMediaDownloader.m; path = VIMediaCache/ResourceLoader/VIMediaDownloader.m; sourceTree = "<group>"; };
 		3ADA44AB86573DC19BF47DC94C0D3B7A /* Pods-KYCacheAVPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYCacheAVPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		431852BC32128028FBB0A8EA0759D45B /* VICacheConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheConfiguration.m; path = VIMediaCache/Cache/VICacheConfiguration.m; sourceTree = "<group>"; };
+		469626724FEE53739FDE9310DF8D016D /* VIResourceLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoader.m; path = VIMediaCache/ResourceLoader/VIResourceLoader.m; sourceTree = "<group>"; };
 		47A7942D3EC458DF5805DE2318596EBE /* KYCacheAVPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYCacheAVPlayer-umbrella.h"; sourceTree = "<group>"; };
+		49DF6F70131594BC23D6075ED9A033FC /* VICacheAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheAction.h; path = VIMediaCache/Cache/VICacheAction.h; sourceTree = "<group>"; };
+		4A39FBB88A5373BBF53ED0E6CC21652D /* VIMediaCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VIMediaCache.framework; path = VIMediaCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F78584D8AE6448334843C3AE90BF3C3 /* KYCacheAVPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KYCacheAVPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		601D6752D4D047068A24407399A5337A /* Pods_KYCacheAVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYCacheAVPlayer_Example.framework; path = "Pods-KYCacheAVPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51A79EF0D53E01A8703BE3BC2FD4B72A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60B677CD9D465C107E920F845222A2D3 /* VICacheAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheAction.m; path = VIMediaCache/Cache/VICacheAction.m; sourceTree = "<group>"; };
+		60BC858CEFEF188CD0EB561FA55B4E9A /* VIMediaCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMediaCache-prefix.pch"; sourceTree = "<group>"; };
+		656AA25C86EA7375E00280427B32A483 /* KYCacheAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYCacheAVPlayer.framework; path = KYCacheAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A490954E045584F2200DBD24B1D7D7B /* KYCacheAVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYCacheAVPlayer.xcconfig; sourceTree = "<group>"; };
+		6CE793326DF177A96FDA173F48E0B179 /* VIMediaDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaDownloader.h; path = VIMediaCache/ResourceLoader/VIMediaDownloader.h; sourceTree = "<group>"; };
 		6D06B2534B5481794B8B3199A62DE320 /* Pods-KYCacheAVPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYCacheAVPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E953727A3A87137CF11D998C6F13ABD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7A0810B9577EA84FB869DC4974B3900E /* KYCacheAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYCacheAVPlayer.framework; path = KYCacheAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B23EAE2F05C3E0CB49022D12B4BEC8 /* VIMediaCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIMediaCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4615DAC72A5C2A4B3E8DEE5AAFCEA5 /* Pods-KYCacheAVPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYCacheAVPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7FD6F747945677872B90D29F893152CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		837527CE7326FB054E8EA03AFC507D02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87DD2C9D23091AACCC230A273240C2A5 /* VIContentInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIContentInfo.h; path = VIMediaCache/ResourceLoader/VIContentInfo.h; sourceTree = "<group>"; };
 		8DBFE6102E253F6DB711C51BC8EB90DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5FDCEC0FDDB9036D4FB4304EF36A1C /* VIResourceLoadingRequestWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIResourceLoadingRequestWorker.m; path = VIMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.m; sourceTree = "<group>"; };
+		909CBFD02495A58174F7B7C2A1C912EC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957D2AC5BEBBF3BF60EEF1E6DE82F803 /* KYCacheAVPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYCacheAVPlayer.modulemap; sourceTree = "<group>"; };
 		95A38161FDE43B5968888302DC382B9B /* Pods-KYCacheAVPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYCacheAVPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		976B52222EEB037D91C56CE115EE2210 /* Pods-KYCacheAVPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCacheAVPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9794D01AF0663F07A573EB1E9EF353E0 /* VIMediaCacheWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaCacheWorker.h; path = VIMediaCache/Cache/VIMediaCacheWorker.h; sourceTree = "<group>"; };
 		9BF0FC854822E7D5A076F4340A592E26 /* Pods-KYCacheAVPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYCacheAVPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		ABEC611C0558CC11D69C5545899DADED /* VIResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoader.h; path = VIMediaCache/ResourceLoader/VIResourceLoader.h; sourceTree = "<group>"; };
+		AD0E61AC70928D34691FF3FE4E105749 /* VIMediaCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIMediaCache.xcconfig; sourceTree = "<group>"; };
+		AD660A39557B58D5BC10E25110C62365 /* VICacheSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VICacheSessionManager.h; path = VIMediaCache/Cache/VICacheSessionManager.h; sourceTree = "<group>"; };
+		B6843067B4AE7FD10D3C66C9AF31DA08 /* VIResourceLoaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoaderManager.h; path = VIMediaCache/ResourceLoader/VIResourceLoaderManager.h; sourceTree = "<group>"; };
 		B7963EA67F4F4CDC2F95A6F1C995F9C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7E80401BA193CACAA540DC8E1AB60B8 /* KYCacheAVPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYCacheAVPlayer-dummy.m"; sourceTree = "<group>"; };
 		C0D97B6D4CBC06C8743AE34AD8E5FF66 /* Pods-KYCacheAVPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYCacheAVPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C143A2F49DB2C94D0B38F08B3A98358E /* Pods-KYCacheAVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCacheAVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C8CFE387460465D660214B41C3E6B5E5 /* Pods_KYCacheAVPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYCacheAVPlayer_Tests.framework; path = "Pods-KYCacheAVPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BE74E4A0612948C7BE371CA91CA70C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA9E5AD749BE2637BE9F4BBADEA69E7D /* VIMediaCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMediaCache.h; path = VIMediaCache/VIMediaCache.h; sourceTree = "<group>"; };
 		CDC98B5A51EF0598B7FE54C6D0A1947C /* Pods-KYCacheAVPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYCacheAVPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		CF53CB2BB6C67C3CA08E6FF728EA9C09 /* NSString+VIMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+VIMD5.m"; path = "VIMediaCache/Cache/NSString+VIMD5.m"; sourceTree = "<group>"; };
 		D12C2B621C10A3CE6FFB31AD085E19CC /* Pods-KYCacheAVPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYCacheAVPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D7F662BF60E0D0DC2F2341FEC78E7550 /* Pods-KYCacheAVPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYCacheAVPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D920CD3294DF532F239728C709FD30BE /* VIMediaCacheWorker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMediaCacheWorker.m; path = VIMediaCache/Cache/VIMediaCacheWorker.m; sourceTree = "<group>"; };
+		E0F09BD57AFE482DE6C9018AD045CE56 /* VIResourceLoadingRequestWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIResourceLoadingRequestWorker.h; path = VIMediaCache/ResourceLoader/VIResourceLoadingRequestWorker.h; sourceTree = "<group>"; };
 		E3E07029F48C492FA285E6317B200827 /* Pods-KYCacheAVPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYCacheAVPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		E6E58566A6991E1A1F3E8998CB7E9107 /* Pods_KYCacheAVPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYCacheAVPlayer_Example.framework; path = "Pods-KYCacheAVPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA7124AE0FF0782D4453567A9F84595 /* KYCacheAVPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYCacheAVPlayer-prefix.pch"; sourceTree = "<group>"; };
 		ECE3D083506B1DB62F0D212C3378D599 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDC702C37CEACF5DCEA6068CE4D316E1 /* Pods-KYCacheAVPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYCacheAVPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF68A130A464D82329824DBD61190DA8 /* Pods_KYCacheAVPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYCacheAVPlayer_Tests.framework; path = "Pods-KYCacheAVPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F296080D60F7CC998B0CC71DFC17CD0E /* VICacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheManager.m; path = VIMediaCache/Cache/VICacheManager.m; sourceTree = "<group>"; };
+		F8E782B5366255BA935BC3A7CFB8C63D /* VICacheSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VICacheSessionManager.m; path = VIMediaCache/Cache/VICacheSessionManager.m; sourceTree = "<group>"; };
+		FC85BA8C419A3CE5773762C61A169B9A /* NSString+VIMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+VIMD5.h"; path = "VIMediaCache/Cache/NSString+VIMD5.h"; sourceTree = "<group>"; };
 		FDD16173B91676374C15F2E010E0E010 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KYCacheAVPlayer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		FDE16B0D92E0A01A1DCDE0AFE9DAA004 /* Pods-KYCacheAVPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYCacheAVPlayer_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		56FD7E2641D1B31C6C2BAEA87754B64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05AF0BA7CA46C856D664357876F9544 /* AVFoundation.framework in Frameworks */,
+				C287AE3F2396C3F43FB0958576B776D4 /* Foundation.framework in Frameworks */,
+				041283B6F9EEDCC1D88A89A260F22CE5 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		771526560D4C5FA97AF76D72EEF8E161 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,25 +172,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A36FF19DBC97C3D0129A06554F5C8B10 /* Frameworks */ = {
+		894B12D1DFC1D7568040338D42DF1632 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC73330C739B665B0FA2880870FB6BBF /* Foundation.framework in Frameworks */,
+				00573106063F6E7137E405BDDB42958B /* AVFoundation.framework in Frameworks */,
+				7BCE3AE843DDAAEA0E9EF6FCACEF578E /* Foundation.framework in Frameworks */,
+				7A2EFD48EB793BC9A86A17A374F5281D /* UIKit.framework in Frameworks */,
+				39F7355AEE76D8ED0330D242C278995F /* VIMediaCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB8C2DB549F317832C05E328FDA3A15B /* Frameworks */ = {
+		A2FC75D75FB4464523843154758B9D69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1355D74133F46C767B22D165E52DDFC /* Foundation.framework in Frameworks */,
+				3DA5D4421B284E28D6CD2AE3998C1339 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3ED479380523F98D1D5D29153977A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C7BE74E4A0612948C7BE371CA91CA70C /* AVFoundation.framework */,
+				51A79EF0D53E01A8703BE3BC2FD4B72A /* Foundation.framework */,
+				909CBFD02495A58174F7B7C2A1C912EC /* MobileCoreServices.framework */,
+				837527CE7326FB054E8EA03AFC507D02 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		20A4D26D4153D42CC50F8B2D0EBF7C1D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +225,25 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		398B5D9007602C9637EDA880E57635CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92A73C8B34020E32DEF9D10729035A6F /* VIMediaCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		668FC6305945D9DFA45E46D5906F7EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656AA25C86EA7375E00280427B32A483 /* KYCacheAVPlayer.framework */,
+				E6E58566A6991E1A1F3E8998CB7E9107 /* Pods_KYCacheAVPlayer_Example.framework */,
+				EF68A130A464D82329824DBD61190DA8 /* Pods_KYCacheAVPlayer_Tests.framework */,
+				4A39FBB88A5373BBF53ED0E6CC21652D /* VIMediaCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		697B0DC57ED4579A9D94DDA4619624AF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,26 +257,64 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				697B0DC57ED4579A9D94DDA4619624AF /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				ACE141421B2EA9F262C1899AD136C40F /* Products */,
+				C0778EDCA3F47F40557F7C91D5E66C8B /* Frameworks */,
+				398B5D9007602C9637EDA880E57635CD /* Pods */,
+				668FC6305945D9DFA45E46D5906F7EC4 /* Products */,
 				20A4D26D4153D42CC50F8B2D0EBF7C1D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		ACE141421B2EA9F262C1899AD136C40F /* Products */ = {
+		92A73C8B34020E32DEF9D10729035A6F /* VIMediaCache */ = {
 			isa = PBXGroup;
 			children = (
-				7A0810B9577EA84FB869DC4974B3900E /* KYCacheAVPlayer.framework */,
-				601D6752D4D047068A24407399A5337A /* Pods_KYCacheAVPlayer_Example.framework */,
-				C8CFE387460465D660214B41C3E6B5E5 /* Pods_KYCacheAVPlayer_Tests.framework */,
+				FC85BA8C419A3CE5773762C61A169B9A /* NSString+VIMD5.h */,
+				CF53CB2BB6C67C3CA08E6FF728EA9C09 /* NSString+VIMD5.m */,
+				49DF6F70131594BC23D6075ED9A033FC /* VICacheAction.h */,
+				60B677CD9D465C107E920F845222A2D3 /* VICacheAction.m */,
+				2634D8E25EFDD6E4A2C1B4A72EDC2631 /* VICacheConfiguration.h */,
+				431852BC32128028FBB0A8EA0759D45B /* VICacheConfiguration.m */,
+				049A334D1E3406EBA5CE1C2E45D82597 /* VICacheManager.h */,
+				F296080D60F7CC998B0CC71DFC17CD0E /* VICacheManager.m */,
+				AD660A39557B58D5BC10E25110C62365 /* VICacheSessionManager.h */,
+				F8E782B5366255BA935BC3A7CFB8C63D /* VICacheSessionManager.m */,
+				87DD2C9D23091AACCC230A273240C2A5 /* VIContentInfo.h */,
+				1145B714E6604471E8D657893D0BCF34 /* VIContentInfo.m */,
+				CA9E5AD749BE2637BE9F4BBADEA69E7D /* VIMediaCache.h */,
+				9794D01AF0663F07A573EB1E9EF353E0 /* VIMediaCacheWorker.h */,
+				D920CD3294DF532F239728C709FD30BE /* VIMediaCacheWorker.m */,
+				6CE793326DF177A96FDA173F48E0B179 /* VIMediaDownloader.h */,
+				3224BBC1ACD4723DD8A25C49882AAFA0 /* VIMediaDownloader.m */,
+				ABEC611C0558CC11D69C5545899DADED /* VIResourceLoader.h */,
+				469626724FEE53739FDE9310DF8D016D /* VIResourceLoader.m */,
+				B6843067B4AE7FD10D3C66C9AF31DA08 /* VIResourceLoaderManager.h */,
+				1506B0846D6E6D0B95DAE0DB35080A98 /* VIResourceLoaderManager.m */,
+				E0F09BD57AFE482DE6C9018AD045CE56 /* VIResourceLoadingRequestWorker.h */,
+				8E5FDCEC0FDDB9036D4FB4304EF36A1C /* VIResourceLoadingRequestWorker.m */,
+				BF361958DE1A651D35D3D3F00410F3B9 /* Support Files */,
 			);
-			name = Products;
+			name = VIMediaCache;
+			path = VIMediaCache;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BF361958DE1A651D35D3D3F00410F3B9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				0A0DC0512315BB0D67763D0295294C0F /* Info.plist */,
+				1DDE2438A52FC7544E9765D7FAA5C059 /* VIMediaCache.modulemap */,
+				AD0E61AC70928D34691FF3FE4E105749 /* VIMediaCache.xcconfig */,
+				2C203130958B1EE9B2076CE2129E02F2 /* VIMediaCache-dummy.m */,
+				60BC858CEFEF188CD0EB561FA55B4E9A /* VIMediaCache-prefix.pch */,
+				287EDFA995C581B13E82E8108B87674A /* VIMediaCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VIMediaCache";
+			sourceTree = "<group>";
+		};
+		C0778EDCA3F47F40557F7C91D5E66C8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70B23EAE2F05C3E0CB49022D12B4BEC8 /* VIMediaCache.framework */,
+				0B3ED479380523F98D1D5D29153977A9 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,14 +331,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KYCacheAVPlayer";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D9B545728A3628F0F642A17CB5450035 /* Pods-KYCacheAVPlayer_Example */ = {
@@ -230,19 +382,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		413D04FA4AF135019535560C0D6887F0 /* Headers */ = {
+		6D863A5C1A6EDDF30C5B3DAF36E7F473 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38611B062829D2738F3F10D1402F785 /* Pods-KYCacheAVPlayer_Example-umbrella.h in Headers */,
+				A099099AE140D18366D4F62864761D35 /* NSString+VIMD5.h in Headers */,
+				062883CBFE6CE8F7D95C29386098D709 /* VICacheAction.h in Headers */,
+				1E9D522EFAAE654A040B1B365C6CD88E /* VICacheConfiguration.h in Headers */,
+				48D731DFD89FB389358E5DDDADD0E399 /* VICacheManager.h in Headers */,
+				A60CDAD4F83C24C77561D8DDEEA19CCB /* VICacheSessionManager.h in Headers */,
+				141A32296D53BFC43BBC91C6C1F7B09A /* VIContentInfo.h in Headers */,
+				9CA2879C8268986942B2EDD9E4F94D60 /* VIMediaCache-umbrella.h in Headers */,
+				2609E161652CC1DD37ACE02579953C14 /* VIMediaCache.h in Headers */,
+				1712721AB508D4F5850014F0DAA9DF3D /* VIMediaCacheWorker.h in Headers */,
+				DD0B6476482CCC252DC0C31A0743F4A5 /* VIMediaDownloader.h in Headers */,
+				6F70574588F1A2322702DC6F5809269C /* VIResourceLoader.h in Headers */,
+				1D992CAA5C7FCE1786619693A2792736 /* VIResourceLoaderManager.h in Headers */,
+				59DD719E60D50CEB8CF60F4D4BF11BA9 /* VIResourceLoadingRequestWorker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1F397BF4331DD99D4456DCB27480E1B /* Headers */ = {
+		BB3F43F863062349DC3B0A7C31C13DA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF788768C3B9D6642DEB634DADD0F1B4 /* KYCacheAVPlayer-umbrella.h in Headers */,
+				BD09F88BD8F98A0806CC0819F2A2C2E5 /* KYCacheAVPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +418,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3BB9D0D227F2CBC5E47D879F86C7738 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59ED265B10C2C97799A8AFCB9E645D8 /* Pods-KYCacheAVPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		16A09B784A4278D5411373F2D8DBE2A9 /* VIMediaCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD97CD4819B0534047243C425825D632 /* Build configuration list for PBXNativeTarget "VIMediaCache" */;
+			buildPhases = (
+				244761E57086EF19BEEB7F057014FFA8 /* Sources */,
+				56FD7E2641D1B31C6C2BAEA87754B64D /* Frameworks */,
+				6D863A5C1A6EDDF30C5B3DAF36E7F473 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIMediaCache;
+			productName = VIMediaCache;
+			productReference = 4A39FBB88A5373BBF53ED0E6CC21652D /* VIMediaCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		85648998AC1A7B63B940B70D3D0F096D /* Pods-KYCacheAVPlayer_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 745D1EF0B70AC0484F3D8ED002056BF4 /* Build configuration list for PBXNativeTarget "Pods-KYCacheAVPlayer_Tests" */;
@@ -272,42 +461,44 @@
 			);
 			name = "Pods-KYCacheAVPlayer_Tests";
 			productName = "Pods-KYCacheAVPlayer_Tests";
-			productReference = C8CFE387460465D660214B41C3E6B5E5 /* Pods_KYCacheAVPlayer_Tests.framework */;
+			productReference = EF68A130A464D82329824DBD61190DA8 /* Pods_KYCacheAVPlayer_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9B9B16BFDC4D03C0D1E83F3686EF6B59 /* Pods-KYCacheAVPlayer_Example */ = {
+		BF1A982E6693226CE20A1053B23D645B /* KYCacheAVPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 485516C6BBFDCAE1F41AFF5F2E345071 /* Build configuration list for PBXNativeTarget "Pods-KYCacheAVPlayer_Example" */;
+			buildConfigurationList = 355F49A9D03F1B85EA30140E669744C5 /* Build configuration list for PBXNativeTarget "KYCacheAVPlayer" */;
 			buildPhases = (
-				810582DBFB722E99B04C9F0D908CB0AA /* Sources */,
-				A36FF19DBC97C3D0129A06554F5C8B10 /* Frameworks */,
-				413D04FA4AF135019535560C0D6887F0 /* Headers */,
+				E4B073F7CF6F49F5B103777F4B600CB4 /* Sources */,
+				894B12D1DFC1D7568040338D42DF1632 /* Frameworks */,
+				BB3F43F863062349DC3B0A7C31C13DA8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84C6C3738A12E77893164878A5C1C7A6 /* PBXTargetDependency */,
-			);
-			name = "Pods-KYCacheAVPlayer_Example";
-			productName = "Pods-KYCacheAVPlayer_Example";
-			productReference = 601D6752D4D047068A24407399A5337A /* Pods_KYCacheAVPlayer_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD1648E729E7A41944EF3251E7218B01 /* KYCacheAVPlayer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1501B15BF6F29A4F16A398862EC70C15 /* Build configuration list for PBXNativeTarget "KYCacheAVPlayer" */;
-			buildPhases = (
-				E8CE398C78265EE415BFF2926F9565D7 /* Sources */,
-				EB8C2DB549F317832C05E328FDA3A15B /* Frameworks */,
-				D1F397BF4331DD99D4456DCB27480E1B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				4CC51CAE16F812A67873482942E1574E /* PBXTargetDependency */,
 			);
 			name = KYCacheAVPlayer;
 			productName = KYCacheAVPlayer;
-			productReference = 7A0810B9577EA84FB869DC4974B3900E /* KYCacheAVPlayer.framework */;
+			productReference = 656AA25C86EA7375E00280427B32A483 /* KYCacheAVPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA065E66D75C49EB55A07573154F300C /* Pods-KYCacheAVPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67E2BDF30B6AFB5F5980F76B1D628FD /* Build configuration list for PBXNativeTarget "Pods-KYCacheAVPlayer_Example" */;
+			buildPhases = (
+				F996D8ADFCE2976C4560ED5E404923B6 /* Sources */,
+				A2FC75D75FB4464523843154758B9D69 /* Frameworks */,
+				F3BB9D0D227F2CBC5E47D879F86C7738 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24A99191F42F7E38A3530AB3D2AFE79 /* PBXTargetDependency */,
+				12A95AF6D079EBC89E150F04D836A1DF /* PBXTargetDependency */,
+			);
+			name = "Pods-KYCacheAVPlayer_Example";
+			productName = "Pods-KYCacheAVPlayer_Example";
+			productReference = E6E58566A6991E1A1F3E8998CB7E9107 /* Pods_KYCacheAVPlayer_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,23 +518,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = ACE141421B2EA9F262C1899AD136C40F /* Products */;
+			productRefGroup = 668FC6305945D9DFA45E46D5906F7EC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD1648E729E7A41944EF3251E7218B01 /* KYCacheAVPlayer */,
-				9B9B16BFDC4D03C0D1E83F3686EF6B59 /* Pods-KYCacheAVPlayer_Example */,
+				BF1A982E6693226CE20A1053B23D645B /* KYCacheAVPlayer */,
+				CA065E66D75C49EB55A07573154F300C /* Pods-KYCacheAVPlayer_Example */,
 				85648998AC1A7B63B940B70D3D0F096D /* Pods-KYCacheAVPlayer_Tests */,
+				16A09B784A4278D5411373F2D8DBE2A9 /* VIMediaCache */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		810582DBFB722E99B04C9F0D908CB0AA /* Sources */ = {
+		244761E57086EF19BEEB7F057014FFA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C61020E9ED27737D4E9E9A113F9858E6 /* Pods-KYCacheAVPlayer_Example-dummy.m in Sources */,
+				1BC65C69BAA671891A4D8D10909B261F /* NSString+VIMD5.m in Sources */,
+				5FFB79F882D55036F57FC4795E88C115 /* VICacheAction.m in Sources */,
+				88B94CDB78FD02ABF7DCA56C07B1A773 /* VICacheConfiguration.m in Sources */,
+				2C3AFE9BA94E8A0C1838E87AD01CB928 /* VICacheManager.m in Sources */,
+				F74183EEA1A988E99863CD562F6A8A4B /* VICacheSessionManager.m in Sources */,
+				3A298F9F10AD808BEBCA6FBD677C7EE4 /* VIContentInfo.m in Sources */,
+				257E1E88E9DED26157A220DA010365DB /* VIMediaCache-dummy.m in Sources */,
+				D4513A4963D85BAE6F5BC1E86E6FA940 /* VIMediaCacheWorker.m in Sources */,
+				157A7BB5DFA51F14D2E44BBAEDAEFA4F /* VIMediaDownloader.m in Sources */,
+				5AE51D00B6A8AF61D5ED6712C9A084C8 /* VIResourceLoader.m in Sources */,
+				87DB7612B189FD08A69896BB315A2A54 /* VIResourceLoaderManager.m in Sources */,
+				6B3A6A8468ECAB944F32D97BA43756E3 /* VIResourceLoadingRequestWorker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,37 +558,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8CE398C78265EE415BFF2926F9565D7 /* Sources */ = {
+		E4B073F7CF6F49F5B103777F4B600CB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4F1B40BDD9C9FB2BFEA2F82129EDEF /* KYCacheAVPlayer-dummy.m in Sources */,
-				EABC6B67E2CEDAA59364703266576676 /* ReplaceMe.m in Sources */,
+				881917BB59E417BF700B59A926BC683B /* KYCacheAVPlayer-dummy.m in Sources */,
+				45B2ADA04A74291AD9AE468EBAF9B4B6 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F996D8ADFCE2976C4560ED5E404923B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826F7B17EE0E41DE1E70308E6A3A0485 /* Pods-KYCacheAVPlayer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84C6C3738A12E77893164878A5C1C7A6 /* PBXTargetDependency */ = {
+		12A95AF6D079EBC89E150F04D836A1DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KYCacheAVPlayer;
-			target = DD1648E729E7A41944EF3251E7218B01 /* KYCacheAVPlayer */;
-			targetProxy = EE10B67CB8582585FB0371AD23A9DDA5 /* PBXContainerItemProxy */;
+			name = VIMediaCache;
+			target = 16A09B784A4278D5411373F2D8DBE2A9 /* VIMediaCache */;
+			targetProxy = D1D5A158A0194F81D5F47E34973CD0FB /* PBXContainerItemProxy */;
+		};
+		4CC51CAE16F812A67873482942E1574E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VIMediaCache;
+			target = 16A09B784A4278D5411373F2D8DBE2A9 /* VIMediaCache */;
+			targetProxy = A3193E03F75437A6A0001107FA0CD018 /* PBXContainerItemProxy */;
 		};
 		B0569354B8E37C4668638B863BBAC323 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KYCacheAVPlayer_Example";
-			target = 9B9B16BFDC4D03C0D1E83F3686EF6B59 /* Pods-KYCacheAVPlayer_Example */;
+			target = CA065E66D75C49EB55A07573154F300C /* Pods-KYCacheAVPlayer_Example */;
 			targetProxy = 2683FF643BB5F60D9F49E63A44EC8092 /* PBXContainerItemProxy */;
+		};
+		F24A99191F42F7E38A3530AB3D2AFE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYCacheAVPlayer;
+			target = BF1A982E6693226CE20A1053B23D645B /* KYCacheAVPlayer */;
+			targetProxy = F054A5D681EEF7C0BED544C53FD32DEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23727F98DB202E93B144E0A360D97770 /* Release */ = {
+		4A17A494FC6B93520C5D3F87EA987AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A490954E045584F2200DBD24B1D7D7B /* KYCacheAVPlayer.xcconfig */;
+			baseConfigurationReference = C143A2F49DB2C94D0B38F08B3A98358E /* Pods-KYCacheAVPlayer_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -395,23 +619,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KYCacheAVPlayer/KYCacheAVPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KYCacheAVPlayer/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYCacheAVPlayer_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KYCacheAVPlayer/KYCacheAVPlayer.modulemap";
-				PRODUCT_MODULE_NAME = KYCacheAVPlayer;
-				PRODUCT_NAME = KYCacheAVPlayer;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYCacheAVPlayer_Example/Pods-KYCacheAVPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		67052AA8F6DF4E65AE32D76D3CF4CB05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -447,7 +672,7 @@
 			};
 			name = Release;
 		};
-		7EA59DBDAE2536E5A27E093D0383E996 /* Debug */ = {
+		80EA0D22C2D39354888E0DB5B9A110B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A490954E045584F2200DBD24B1D7D7B /* KYCacheAVPlayer.xcconfig */;
 			buildSettings = {
@@ -598,40 +823,6 @@
 			};
 			name = Release;
 		};
-		BDE7BEF6375F679ECEA0C66A1796E59A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07EB7CC8173E68D55B00E316063330C8 /* Pods-KYCacheAVPlayer_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KYCacheAVPlayer_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KYCacheAVPlayer_Example/Pods-KYCacheAVPlayer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CC89178601DF7F9AF31AD34991DF85D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 976B52222EEB037D91C56CE115EE2210 /* Pods-KYCacheAVPlayer_Tests.debug.xcconfig */;
@@ -665,9 +856,101 @@
 			};
 			name = Debug;
 		};
-		FC8B906D631829CB2BBB84964AA509E2 /* Debug */ = {
+		D71FD1D30598C7D38B84E44CA8BF9CB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C143A2F49DB2C94D0B38F08B3A98358E /* Pods-KYCacheAVPlayer_Example.debug.xcconfig */;
+			baseConfigurationReference = AD0E61AC70928D34691FF3FE4E105749 /* VIMediaCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VIMediaCache/VIMediaCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VIMediaCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VIMediaCache/VIMediaCache.modulemap";
+				PRODUCT_MODULE_NAME = VIMediaCache;
+				PRODUCT_NAME = VIMediaCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F206CBCD8AC0CBD5ACC7953FB5882AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0E61AC70928D34691FF3FE4E105749 /* VIMediaCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VIMediaCache/VIMediaCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VIMediaCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VIMediaCache/VIMediaCache.modulemap";
+				PRODUCT_MODULE_NAME = VIMediaCache;
+				PRODUCT_NAME = VIMediaCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD9F31DF5294960FC8191CA44FB2A950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A490954E045584F2200DBD24B1D7D7B /* KYCacheAVPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYCacheAVPlayer/KYCacheAVPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYCacheAVPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYCacheAVPlayer/KYCacheAVPlayer.modulemap";
+				PRODUCT_MODULE_NAME = KYCacheAVPlayer;
+				PRODUCT_NAME = KYCacheAVPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE8E272A6BA9DA63A4598223EB3D49C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EB7CC8173E68D55B00E316063330C8 /* Pods-KYCacheAVPlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -693,23 +976,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1501B15BF6F29A4F16A398862EC70C15 /* Build configuration list for PBXNativeTarget "KYCacheAVPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7EA59DBDAE2536E5A27E093D0383E996 /* Debug */,
-				23727F98DB202E93B144E0A360D97770 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -719,11 +994,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		485516C6BBFDCAE1F41AFF5F2E345071 /* Build configuration list for PBXNativeTarget "Pods-KYCacheAVPlayer_Example" */ = {
+		355F49A9D03F1B85EA30140E669744C5 /* Build configuration list for PBXNativeTarget "KYCacheAVPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC8B906D631829CB2BBB84964AA509E2 /* Debug */,
-				BDE7BEF6375F679ECEA0C66A1796E59A /* Release */,
+				80EA0D22C2D39354888E0DB5B9A110B4 /* Debug */,
+				FD9F31DF5294960FC8191CA44FB2A950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -733,6 +1008,24 @@
 			buildConfigurations = (
 				CC89178601DF7F9AF31AD34991DF85D2 /* Debug */,
 				67052AA8F6DF4E65AE32D76D3CF4CB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67E2BDF30B6AFB5F5980F76B1D628FD /* Build configuration list for PBXNativeTarget "Pods-KYCacheAVPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A17A494FC6B93520C5D3F87EA987AC5 /* Debug */,
+				FE8E272A6BA9DA63A4598223EB3D49C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD97CD4819B0534047243C425825D632 /* Build configuration list for PBXNativeTarget "VIMediaCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206CBCD8AC0CBD5ACC7953FB5882AFA /* Debug */,
+				D71FD1D30598C7D38B84E44CA8BF9CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

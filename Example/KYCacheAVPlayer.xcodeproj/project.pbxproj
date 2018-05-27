@@ -24,8 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F90A5A3D20BB08B50046426A /* KYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A5A3920BB08B50046426A /* KYPlayerView.m */; };
-		F90A5A3E20BB08B50046426A /* KYCacheAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A5A3C20BB08B50046426A /* KYCacheAVPlayer.m */; };
+		F90A5A4420BB0A190046426A /* KYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A5A4120BB0A190046426A /* KYPlayerView.m */; };
+		F90A5A4520BB0A190046426A /* KYCacheAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A5A4220BB0A190046426A /* KYCacheAVPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +69,10 @@
 		AA077ED0FF7A99D193A63F06 /* KYCacheAVPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KYCacheAVPlayer.podspec; path = ../KYCacheAVPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BEC2F58515E919A59843F7B2 /* Pods-KYCacheAVPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYCacheAVPlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYCacheAVPlayer_Example/Pods-KYCacheAVPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8311BAB6BA73B9F82D965EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F90A5A3920BB08B50046426A /* KYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlayerView.m; sourceTree = "<group>"; };
-		F90A5A3A20BB08B50046426A /* KYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlayerView.h; sourceTree = "<group>"; };
-		F90A5A3B20BB08B50046426A /* KYCacheAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCacheAVPlayer.h; sourceTree = "<group>"; };
-		F90A5A3C20BB08B50046426A /* KYCacheAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCacheAVPlayer.m; sourceTree = "<group>"; };
+		F90A5A4020BB0A190046426A /* KYCacheAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCacheAVPlayer.h; sourceTree = "<group>"; };
+		F90A5A4120BB0A190046426A /* KYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlayerView.m; sourceTree = "<group>"; };
+		F90A5A4220BB0A190046426A /* KYCacheAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCacheAVPlayer.m; sourceTree = "<group>"; };
+		F90A5A4320BB0A190046426A /* KYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlayerView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +138,7 @@
 		6003F593195388D20070C39A /* Example for KYCacheAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				F90A5A3820BB089F0046426A /* Classes */,
+				F90A5A3F20BB0A190046426A /* Classes */,
 				6003F59C195388D20070C39A /* KYAppDelegate.h */,
 				6003F59D195388D20070C39A /* KYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -203,15 +203,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F90A5A3820BB089F0046426A /* Classes */ = {
+		F90A5A3F20BB0A190046426A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F90A5A3B20BB08B50046426A /* KYCacheAVPlayer.h */,
-				F90A5A3C20BB08B50046426A /* KYCacheAVPlayer.m */,
-				F90A5A3A20BB08B50046426A /* KYPlayerView.h */,
-				F90A5A3920BB08B50046426A /* KYPlayerView.m */,
+				F90A5A4020BB0A190046426A /* KYCacheAVPlayer.h */,
+				F90A5A4220BB0A190046426A /* KYCacheAVPlayer.m */,
+				F90A5A4320BB0A190046426A /* KYPlayerView.h */,
+				F90A5A4120BB0A190046426A /* KYPlayerView.m */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +265,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "673637753@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 423B8444SP;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -320,10 +323,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KYCacheAVPlayer_Example/Pods-KYCacheAVPlayer_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KYCacheAVPlayer/KYCacheAVPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/VIMediaCache/VIMediaCache.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYCacheAVPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VIMediaCache.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -374,8 +379,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KYAppDelegate.m in Sources */,
-				F90A5A3E20BB08B50046426A /* KYCacheAVPlayer.m in Sources */,
-				F90A5A3D20BB08B50046426A /* KYPlayerView.m in Sources */,
+				F90A5A4520BB0A190046426A /* KYCacheAVPlayer.m in Sources */,
+				F90A5A4420BB0A190046426A /* KYPlayerView.m in Sources */,
 				6003F5A7195388D20070C39A /* KYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -505,9 +510,11 @@
 			baseConfigurationReference = BEC2F58515E919A59843F7B2 /* Pods-KYCacheAVPlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423B8444SP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KYCacheAVPlayer/KYCacheAVPlayer-Prefix.pch";
 				INFOPLIST_FILE = "KYCacheAVPlayer/KYCacheAVPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,9 +527,11 @@
 			baseConfigurationReference = 756F2F1D3CFB0BA2C3701786 /* Pods-KYCacheAVPlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423B8444SP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KYCacheAVPlayer/KYCacheAVPlayer-Prefix.pch";
 				INFOPLIST_FILE = "KYCacheAVPlayer/KYCacheAVPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

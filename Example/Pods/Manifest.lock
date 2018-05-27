@@ -1,16 +1,24 @@
 PODS:
-  - KYCacheAVPlayer (0.1.0)
+  - KYCacheAVPlayer (0.1.0):
+    - VIMediaCache (~> 0.4)
+  - VIMediaCache (0.4)
 
 DEPENDENCIES:
   - KYCacheAVPlayer (from `../`)
+  - VIMediaCache (~> 0.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - VIMediaCache
 
 EXTERNAL SOURCES:
   KYCacheAVPlayer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KYCacheAVPlayer: 1a226a7557d895709515ccf729f8d1d13a3261d5
+  KYCacheAVPlayer: 7345837b87420b9ce1c88b1c97f98934026b36c2
+  VIMediaCache: aa650f82cb114c68a343beb4e67416cf5eb2f3a2
 
-PODFILE CHECKSUM: bbdd0d3cee5febead6ac45c80435b12a5e0085e4
+PODFILE CHECKSUM: 5495808eb194432128eec2834ef46c182da085bb
 
 COCOAPODS: 1.5.0
