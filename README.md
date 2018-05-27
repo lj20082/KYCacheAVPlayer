@@ -1,0 +1,2 @@
+# KYCacheAVPlayer
+KYCacheAVPlayer 是在VIMediaCache封装的带缓存的AVplayer工具
