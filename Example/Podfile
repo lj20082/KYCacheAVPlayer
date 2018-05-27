@@ -2,7 +2,6 @@ use_frameworks!
 
 target 'KYCacheAVPlayer_Example' do
   pod 'KYCacheAVPlayer', :path => '../'
-  pod 'VIMediaCache', '~> 0.4'
   target 'KYCacheAVPlayer_Tests' do
     inherit! :search_paths
 

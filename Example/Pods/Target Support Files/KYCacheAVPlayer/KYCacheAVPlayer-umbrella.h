@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "KYCacheAVPlayer.h"
+#import "KYPlayerView.h"
 
 FOUNDATION_EXPORT double KYCacheAVPlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char KYCacheAVPlayerVersionString[];
