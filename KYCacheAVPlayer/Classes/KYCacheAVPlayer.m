@@ -21,7 +21,7 @@
 @property (nonatomic) CMTime duration;
 
 @property (nonatomic, strong) VIMediaDownloader *downloader;
-
+@property (nonatomic,assign) BOOL shouldAutoResume; //是否应该主动恢复，当非用户主动暂停操作造成播放暂停的需要自动恢复播放
 @end
 
 @implementation KYCacheAVPlayer
@@ -107,6 +107,26 @@
     }
 }
 
+/**
+ *  返回 当前 视频 播放时长
+ */
+- (double)getCurrentPlayingTime{
+    return self.player.currentTime.value/self.player.currentTime.timescale;
+}
+
+/**
+ *  返回 当前 视频 缓存时长
+ */
+- (NSTimeInterval)availableDuration{
+    NSArray *loadedTimeRanges = [[self.player currentItem] loadedTimeRanges];
+    CMTimeRange timeRange = [loadedTimeRanges.firstObject CMTimeRangeValue];// 获取缓冲区域
+    float startSeconds = CMTimeGetSeconds(timeRange.start);
+    float durationSeconds = CMTimeGetSeconds(timeRange.duration);
+    NSTimeInterval result = startSeconds + durationSeconds;// 计算缓冲总进度
+    
+    return result;
+}
+
 - (void)notifyStatusChangedIfNeed:(KYAVPlayerStatus)status{
     if ([self.delegate respondsToSelector:@selector(kyAVPlayerStatusChanged:)]) {
         [self.delegate kyAVPlayerStatusChanged:status];
@@ -129,15 +149,22 @@
     [item removeObserver:self forKeyPath:@"playbackLikelyToKeepUp"];
 }
 /** 数据处理 获取到观察到的数据 并进行处理 */
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
-{
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
     AVPlayerItem *item = object;
     if ([keyPath isEqualToString:@"status"]) {// 播放状态
         [self handleStatusWithPlayerItem:item];
     } else if ([keyPath isEqualToString:@"playbackBufferEmpty"]) {// 跳转后没数据
         [self notifyStatusChangedIfNeed:KYAVPlayerStatusCacheData];
     } else if ([keyPath isEqualToString:@"playbackLikelyToKeepUp"]) {// 跳转后有数据
-            [self notifyStatusChangedIfNeed:KYAVPlayerStatusCacheEnd];
+        [self notifyStatusChangedIfNeed:KYAVPlayerStatusCacheEnd];
+    }else if([keyPath isEqualToString:@"loadedTimeRanges"]){
+        NSTimeInterval timeInterval = [self availableDuration];// 计算缓冲进度
+        NSLog(@"已缓存时长 : %f,当前播放时长： %f",timeInterval,self.getCurrentPlayingTime);
+        if(self.shouldAutoResume){
+            if (timeInterval > self.getCurrentPlayingTime + 5 || timeInterval >= CMTimeGetSeconds(self.duration)){
+                [self resume];
+            }
+        }
     }
 }
 /**
@@ -205,13 +232,16 @@
     NSLog(@"视频播放结束");
     [self notifyStatusChangedIfNeed:KYAVPlayerStatusPlayEnd];
     [self.player seekToTime:kCMTimeZero];
+    if (self.supportCycleplay) {
+        [self.player play];
+    }
 }
 
 /** 视频异常中断 */
 - (void)videoPlayError:(NSNotification *)notic
 {
-    NSLog(@"视频异常中断");
-    [self notifyStatusChangedIfNeed:KYAVPlayerStatusPlayStop];
+    self.shouldAutoResume = YES;
+    [self notifyStatusChangedIfNeed:KYAVPlayerStatusCacheData];
 }
 /** 进入后台 */
 - (void)videoPlayEnterBack:(NSNotification *)notic

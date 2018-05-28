@@ -32,6 +32,9 @@ typedef NS_ENUM(NSInteger, KYAVPlayerStatus) {
 
 @property (nonatomic,assign) id<KYCacheAVPlayerDeleagte> delegate;
 
+// 是否支持循环播放，默认为NO
+@property (nonatomic,assign) BOOL supportCycleplay;
+
 + (instancetype)sharedInstance;
 
 - (void)playVideoWithURL:(NSURL *)url;
