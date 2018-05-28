@@ -58,7 +58,9 @@
     [self addObserverWithPlayItem:self.playerItem];
     if (!self.player) {
         AVPlayer *player = [AVPlayer playerWithPlayerItem:playerItem];
-        player.automaticallyWaitsToMinimizeStalling = NO;
+        if([[UIDevice currentDevice] systemVersion].intValue >= 10){
+            player.automaticallyWaitsToMinimizeStalling = NO;
+        }
         self.player = player;
         [self.playerView setPlayer:self.player];
     }else{
