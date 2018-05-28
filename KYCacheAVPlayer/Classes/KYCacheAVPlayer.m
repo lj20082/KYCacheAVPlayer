@@ -58,7 +58,7 @@
     [self addObserverWithPlayItem:self.playerItem];
     if (!self.player) {
         AVPlayer *player = [AVPlayer playerWithPlayerItem:playerItem];
-        if (@available(iOS 11.0, *)) {
+        if (@available(iOS 10.0, *)) {
             player.automaticallyWaitsToMinimizeStalling = NO;
         }
         self.player = player;
