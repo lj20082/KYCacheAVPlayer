@@ -31,7 +31,6 @@
     [KYCacheAVPlayer sharedInstance].playerView.videoGravity = AVLayerVideoGravityResize;
     [self.view addSubview:[KYCacheAVPlayer sharedInstance].playerView];
     [[KYCacheAVPlayer sharedInstance].playerView setFrame:self.view.bounds];
-    return;
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSURL *url2 = [NSURL URLWithString:@"http://p11s9kqxf.bkt.clouddn.com/bianche.mp4"];
@@ -64,7 +63,7 @@
 
 // 状态监听 -》 通过委托实现
 - (void)kyAVPlayerStatusChanged:(KYAVPlayerStatus)status{
-    NSLog(@"status: %d",status);
+    NSLog(@"status: %ld",(long)status);
 }
 /// 注意页面消失时按需要是否应该移除delegate，防止在其他页面播放回调此处委托
 @end
