@@ -18,15 +18,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+   
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     // 初始化
-    NSURL *url = [NSURL URLWithString:@"https://mvvideo5.meitudata.com/56ea0e90d6cb2653.mp4"];
+
+    NSURL *url = [NSURL URLWithString:@"http://p11s9kqxf.bkt.clouddn.com/bianche.mp4"];
     [KYCacheAVPlayer sharedInstance].delegate = self;
     [[KYCacheAVPlayer sharedInstance] playVideoWithURL:url];
     [KYCacheAVPlayer sharedInstance].playerView.videoGravity = AVLayerVideoGravityResize;
     [self.view addSubview:[KYCacheAVPlayer sharedInstance].playerView];
     [[KYCacheAVPlayer sharedInstance].playerView setFrame:self.view.bounds];
-
+    return;
+    
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSURL *url2 = [NSURL URLWithString:@"http://p11s9kqxf.bkt.clouddn.com/bianche.mp4"];
         [[KYCacheAVPlayer sharedInstance] playVideoWithURL:url2];
