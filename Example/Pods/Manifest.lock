@@ -1,5 +1,5 @@
 PODS:
-  - KYCacheAVPlayer (0.1.0):
+  - KYCacheAVPlayer (0.1.2):
     - VIMediaCache (~> 0.4)
   - VIMediaCache (0.4)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KYCacheAVPlayer: 33286bb17b9eddf031d5e91b6d4a0942f2c772f2
+  KYCacheAVPlayer: f620fdca2fc9fdc41189e8016710709e6526077d
   VIMediaCache: aa650f82cb114c68a343beb4e67416cf5eb2f3a2
 
 PODFILE CHECKSUM: 0e8b1cedd05f89923bd20aa6b80393dfa19ee1c8

@@ -36,6 +36,7 @@
         NSURL *url2 = [NSURL URLWithString:@"http://p11s9kqxf.bkt.clouddn.com/bianche.mp4"];
         [[KYCacheAVPlayer sharedInstance] playVideoWithURL:url2];
     });
+    return;
     // 切换
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSURL *url2 = [NSURL URLWithString:@"https://mvvideo5.meitudata.com/56ea0e90d6cb2653.mp4"];

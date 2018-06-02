@@ -53,20 +53,26 @@
         [self.resourceLoaderManager cancelLoaders];
     }
     self.currentPlayURL = url;
-    AVPlayerItem *playerItem = [self.resourceLoaderManager playerItemWithURL:url];
-    self.playerItem = playerItem;
-    [self addObserverWithPlayItem:self.playerItem];
-    if (!self.player) {
-        AVPlayer *player = [AVPlayer playerWithPlayerItem:playerItem];
-        if (@available(iOS 10.0, *)) {
-            player.automaticallyWaitsToMinimizeStalling = NO;
+    AVAsset *asset = [AVAsset assetWithURL:url];
+    __weak typeof(self) wSelf = self;
+    [asset loadValuesAsynchronouslyForKeys:@[@"duration"] completionHandler:^{
+        AVPlayerItem *playerItem = [AVPlayerItem playerItemWithAsset:asset];
+        wSelf.playerItem = playerItem;
+        [wSelf addObserverWithPlayItem:self.playerItem];
+        if (!wSelf.player) {
+            AVPlayer *player = [AVPlayer playerWithPlayerItem:playerItem];
+            if (@available(iOS 10.0, *)) {
+                player.automaticallyWaitsToMinimizeStalling = NO;
+            }
+            wSelf.player = player;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [wSelf.playerView setPlayer:wSelf.player];
+            });
+        }else{
+            [wSelf.player replaceCurrentItemWithPlayerItem:playerItem];
         }
-        self.player = player;
-        [self.playerView setPlayer:self.player];
-    }else{
-        [self.player replaceCurrentItemWithPlayerItem:playerItem];
-    }
-    [self.player play];
+        [wSelf.player play];
+    }];
 }
 
 - (void)resumeVideoIfNeedWithURL:(NSURL *)url{
@@ -129,7 +135,9 @@
 
 - (void)notifyStatusChangedIfNeed:(KYAVPlayerStatus)status{
     if ([self.delegate respondsToSelector:@selector(kyAVPlayerStatusChanged:)]) {
-        [self.delegate kyAVPlayerStatusChanged:status];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.delegate kyAVPlayerStatusChanged:status];
+        });
     }
 }
 
