@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KYCacheAVPlayer'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'KYCacheAVPlayer 是在VIMediaCache封装的带缓存的AVplayer工具.'
 
 # This description is used to generate tags and improve search results.

@@ -51,6 +51,7 @@
     if (self.playerItem) {
         [self removeObserverWithPlayItem:self.playerItem];
         [self.resourceLoaderManager cancelLoaders];
+        self.playerItem = nil;
     }
     self.currentPlayURL = url;
     AVAsset *asset = [AVAsset assetWithURL:url];
